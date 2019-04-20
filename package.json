@@ -1,6 +1,6 @@
 {
-  "name": "serve-handler",
-  "version": "6.0.0",
+  "name": "serve-handler-proxied",
+  "version": "5.0.7-2",
   "description": "The routing foundation of `serve` and static deployments on Now",
   "main": "src/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "build-views": "dottojs -s ./src -d ./src",
     "prepublish": "yarn run build-views"
   },
-  "repository": "zeit/serve-handler",
+  "repository": "nathancahill/serve-handler",
   "keywords": [
     "static",
     "deployment",
